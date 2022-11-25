@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<title>Projekti 2: AJAX-sovellus</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css.css">
+
+<script src="https://kit.fontawesome.com/a941795bde.js"></script>
+</head>
+<body>
+<main>
+<header><h1>Fakekino</h1>
+  <nav><span>TO00BL10-3016 Web-sovellusten kehittäminen Javascriptillä</span> <span>Projekti 2a: AJAX-sovellus REST APIa hyödyntäen</span> <span>Jenny Heinikainen</span></nav>
+</header>
+<div class="space"> </div>
+<article>
+<section>
+
+<form>
+	<select name="theatre" id="theatre">
+    <option selected disabled>Valitse teatteri</option>
+    <option value="all">Näytä kaikki</option>
+    <option value="1056">Espoo: OMENA</option>
+    <option value="1050">Espoo: SELLO</option>
+    <option value="1058">Helsinki: ITIS</option>
+    <option value="1034">Helsinki: KINOPALATSI</option>
+    <option value="1047">Helsinki: MAXIM</option>
+    <option value="1038">Helsinki: TENNISPALATSI</option>
+    <option value="1043">Vantaa: FLAMINGO</option>
+
+	</select>
+
+  <button id="search-btn"><i class="fa fa-search"></i></button>
+  <input type="text" id="search-input" placeholder="Etsi...">
+  
+</form>
+
+<ul id="movies"></ul>
+
+</section>
+</article>
+
+</main>
+<script src="js.js"></script>
+</body>
+</html>
